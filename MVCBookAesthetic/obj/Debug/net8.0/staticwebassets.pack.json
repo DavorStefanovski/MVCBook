@@ -1,0 +1,301 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVCBookAesthetic.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MVCBookAesthetic.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\.gitignore",
+      "PackagePath": "staticwebassets\\.gitignore"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\uploads\\11f446a4-21d8-44d1-baa3-ff652310c79a_FB_IMG_1644182544492.jpg",
+      "PackagePath": "staticwebassets\\uploads\\11f446a4-21d8-44d1-baa3-ff652310c79a_FB_IMG_1644182544492.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\uploads\\3b7852c9-c09c-4341-bd71-fe44ede1ab5f_1c6fa82d-6c50-4bbf-92bb-df0541fe8124.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3b7852c9-c09c-4341-bd71-fe44ede1ab5f_1c6fa82d-6c50-4bbf-92bb-df0541fe8124.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\uploads\\4b608d40-4ac4-4f6e-8273-5a1318616a32_FB_IMG_1644182544492.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4b608d40-4ac4-4f6e-8273-5a1318616a32_FB_IMG_1644182544492.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\uploads\\aa97b424-2a80-42d3-b508-63f155cf18eb_FB_IMG_1644182544492.jpg",
+      "PackagePath": "staticwebassets\\uploads\\aa97b424-2a80-42d3-b508-63f155cf18eb_FB_IMG_1644182544492.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\uploads\\c324e4f1-7d48-4f96-a512-92b2b0ccdadc_FB_IMG_1644182544492.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c324e4f1-7d48-4f96-a512-92b2b0ccdadc_FB_IMG_1644182544492.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\uploads\\c59a9579-badc-4c03-bbb8-fd1acd24c9e9_FB_IMG_1644182544492.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c59a9579-badc-4c03-bbb8-fd1acd24c9e9_FB_IMG_1644182544492.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\uploads\\e0192013-a27d-4dd5-89e3-f647aea40c35_78632778-1b82-41cc-8cb2-9840ac5124ae.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e0192013-a27d-4dd5-89e3-f647aea40c35_78632778-1b82-41cc-8cb2-9840ac5124ae.jpg"
+    },
+    {
+      "Id": "D:\\Desktop\\MVCBookAesthetic-20240515T154929Z-001\\MVCBookAesthetic\\MVCBookAesthetic\\wwwroot\\uploads\\f9b2d976-80d4-420f-a56d-d0b089d1a349_FB_IMG_1644182544492.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f9b2d976-80d4-420f-a56d-d0b089d1a349_FB_IMG_1644182544492.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVCBookAesthetic.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MVCBookAesthetic.props",
+      "PackagePath": "build\\MVCBookAesthetic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MVCBookAesthetic.props",
+      "PackagePath": "buildMultiTargeting\\MVCBookAesthetic.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MVCBookAesthetic.props",
+      "PackagePath": "buildTransitive\\MVCBookAesthetic.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
