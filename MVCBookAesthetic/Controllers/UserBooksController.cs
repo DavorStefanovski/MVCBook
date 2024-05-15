@@ -2,27 +2,36 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MVCBookAesthetic.Data;
 using MVCBookAesthetic.Models;
-
+using MVCBookAesthetic.Areas.Identity.Data;
 namespace MVCBookAesthetic.Controllers
 {
     public class UserBooksController : Controller
     {
         private readonly MVCBookAestheticContext _context;
-
-        public UserBooksController(MVCBookAestheticContext context)
+        private readonly UserManager<MVCBookAestheticUser> _userManager;
+        public UserBooksController(MVCBookAestheticContext context, UserManager<MVCBookAestheticUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: UserBooks
         public async Task<IActionResult> Index()
         {
-            var mVCBookAestheticContext = _context.UserBooks.Include(u => u.Book);
+            var user = await _userManager.GetUserAsync(HttpContext.User);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            var name = user.Email;
+
+            IQueryable<UserBooks> mVCBookAestheticContext = _context.UserBooks.Include(u => u.Book).Where(e => e.AppUser == name);
             return View(await mVCBookAestheticContext.ToListAsync());
         }
 
@@ -46,27 +55,35 @@ namespace MVCBookAesthetic.Controllers
         }
 
         // GET: UserBooks/Create
-        public IActionResult Create()
+        /*public IActionResult Create()
         {
             ViewData["BookId"] = new SelectList(_context.Book, "Id", "Title");
             return View();
-        }
+        }*/
 
         // POST: UserBooks/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,BookId,AppUser")] UserBooks userBooks)
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(int id)
         {
+            var user = await _userManager.GetUserAsync(HttpContext.User);
+            var name = user.Email;
+            UserBooks entry = new UserBooks
+            {
+                AppUser = name,
+                BookId = id
+            };
             if (ModelState.IsValid)
             {
-                _context.Add(userBooks);
+                
+                _context.Add(entry);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["BookId"] = new SelectList(_context.Book, "Id", "Title", userBooks.BookId);
-            return View(userBooks);
+            ViewData["BookId"] = new SelectList(_context.Book, "Id", "Title", entry.BookId);
+            return View(entry);
         }
 
         // GET: UserBooks/Edit/5
