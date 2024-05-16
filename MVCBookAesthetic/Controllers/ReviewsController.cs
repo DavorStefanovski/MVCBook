@@ -2,21 +2,24 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using MVCBookAesthetic.Areas.Identity.Data;
 using MVCBookAesthetic.Data;
 using MVCBookAesthetic.Models;
-
+using MVCBookAesthetic.ViewModels;
 namespace MVCBookAesthetic.Controllers
 {
     public class ReviewsController : Controller
     {
         private readonly MVCBookAestheticContext _context;
-
-        public ReviewsController(MVCBookAestheticContext context)
+        private readonly UserManager<MVCBookAestheticUser> _userManager;
+        public ReviewsController(MVCBookAestheticContext context, UserManager<MVCBookAestheticUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Reviews
@@ -45,29 +48,63 @@ namespace MVCBookAesthetic.Controllers
             return View(review);
         }
 
+      
         // GET: Reviews/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create(int id)
         {
-            ViewData["BookId"] = new SelectList(_context.Book, "Id", "Title");
-            return View();
+            var book = await _context.Book.Where(s => s.Id == id).SingleOrDefaultAsync();
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            var bookReview = new BookReview
+            {
+                Title = book.Title,
+                Id = book.Id,
+                Review = new Review()
+            };
+
+            return View(bookReview);
         }
 
+
         // POST: Reviews/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,BookId,AppUser,Comment,Rating")] Review review)
+        public async Task<IActionResult> Create(BookReview viewModel)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(review);
+            //if (ModelState.IsValid)
+            
+                var user = await _userManager.GetUserAsync(HttpContext.User);
+                if (user == null)
+                {
+                    return NotFound("User not found");
+                }
+
+                var book = await _context.Book.FindAsync(viewModel.Id);
+                if (book == null)
+                {
+                    return NotFound("Book not found");
+                }
+
+                var newEntry = new Review
+                {
+                    Comment = viewModel.Review.Comment,
+                    Rating = viewModel.Review.Rating,
+                    AppUser = user.Email,
+                    BookId = book.Id
+                };
+
+                _context.Review.Add(newEntry); // Use the correct DbSet to add the new entry
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["BookId"] = new SelectList(_context.Book, "Id", "Title", review.BookId);
-            return View(review);
+            
+
+            //return View(viewModel);
         }
+
+
 
         // GET: Reviews/Edit/5
         public async Task<IActionResult> Edit(int? id)

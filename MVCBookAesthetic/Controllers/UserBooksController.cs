@@ -31,7 +31,8 @@ namespace MVCBookAesthetic.Controllers
             }
             var name = user.Email;
 
-            IQueryable<UserBooks> mVCBookAestheticContext = _context.UserBooks.Include(u => u.Book).Where(e => e.AppUser == name);
+            IQueryable<UserBooks> mVCBookAestheticContext = _context.UserBooks.Include(u => u.Book).ThenInclude(u => u.Genres).ThenInclude(u => u.Genre).Where(e => e.AppUser == name);
+            mVCBookAestheticContext = mVCBookAestheticContext.Include(u => u.Book).ThenInclude(u => u.Author);
             return View(await mVCBookAestheticContext.ToListAsync());
         }
 

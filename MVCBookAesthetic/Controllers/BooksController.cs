@@ -107,8 +107,8 @@ namespace MVCBookAesthetic.Controllers
                     }
 
                     // Save file path in the database
-                    //book.FrontPage = "/uploads/" + uniqueFileName;
-                    viewmodel.Book.FrontPage = filePath;
+                    viewmodel.Book.FrontPage = "/uploads/" + uniqueFileName;
+                    
                 }
                 if (viewmodel.Book.PdfFile != null && viewmodel.Book.PdfFile.Length > 0)
                 {
@@ -122,8 +122,8 @@ namespace MVCBookAesthetic.Controllers
                     }
 
                     // Save PDF file path in the database
-                    //book.DownloadURL = "/uploads/" + uniquePdfFileName;
-                    viewmodel.Book.DownloadUrl = pdfFilePath;
+                    viewmodel.Book.DownloadUrl = "/uploads/" + uniquePdfFileName;
+                    
                 }
 
                 // Save your model to the database

@@ -4,38 +4,45 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>My Books</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Book)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AppUser)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Book.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AppUser)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+<div class="row">
+@foreach (var item in Model)
+{
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <a asp-controller="Books" asp-action="Details" asp-route-id="@item.Book.Id" class="btn btn-secondary zoom-effect" style="padding:0;"><img src="@item.Book.FrontPage" class="card-img-top" alt="Book Cover" style="margin:0;"></a>
+            <div class="card-body">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Book.Title)</h5>
+                <p class="card-text">@Html.DisplayFor(modelItem => item.Book.Description)</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Author: @Html.DisplayFor(modelItem => item.Book.Author.FullName)</li>
+                    <li class="list-group-item">Published: @Html.DisplayFor(modelItem => item.Book.YearPublished)</li>
+                    <li class="list-group-item">Publisher: @Html.DisplayFor(modelItem => item.Book.Publisher)</li>
+                    <li class="list-group-item">
+                        Genres:
+                        @foreach (var genre in item.Book.Genres)
+                        {
+                            <a asp-controller="Genres" asp-action="Details" asp-route-id="@genre.GenreId">@genre.Genre.GenreName</a>
+                            if (!genre.Equals(item.Book.Genres.Last()))
+                            {
+                                <span>, </span>
+                            }
+                        }
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <a href="@item.Book.DownloadUrl" class="btn btn-primary" download>Read</a>
+                @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                {
+                    <a asp-controller="Books" asp-action="Edit" asp-route-id="@item.Book.Id" class="btn btn-warning">Edit</a>
+                    <a asp-controller="Books" asp-action="Delete" asp-route-id="@item.Book.Id" class="btn btn-danger">Delete</a>
+                }
+                    <a asp-controller="Reviews" asp-action="Create" asp-route-id="@item.Book.Id" class="btn btn-danger">Add review</a>
+               
+            </div>
+        </div>
+    </div>
 }
-    </tbody>
-</table>
+</div>
