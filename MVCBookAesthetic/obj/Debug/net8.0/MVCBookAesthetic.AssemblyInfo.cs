@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCBookAesthetic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0d6f8dc7313ec24f246b28d0ad3948053e60a8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a530683d56859a5270d696b98f8cf92da1fd398d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCBookAesthetic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCBookAesthetic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
